@@ -1,25 +1,25 @@
 ---
-title: "Min fina titel"
+title: "Om Mig Själv"
 ---
-Min me-sida i kursen design
+Om Mig Själv | Design Kursen
 =========================
 
-Detta innehåll är skrivet i markdown och du hittar innehållet i filen `content/index.md`.
+[FIGURE src="image/samurai_me.png?w=200" class="right" caption="Här är en bild av en samurai. Bilden är icke copyright enligt google."]
 
-[FIGURE src="image/me.jpg?w=500" class="right" caption="Bild på mig"]
+<div class="main-content-text">
+Hej, mitt namn är Van Hien Le, där Hien är förnamnet, Van är mellannamnet och Le   efternamnet. Just nu bor jag i Karlskoga och jobbar 150% i Örebro samtidigt som jag studerar 100% på distans på BTH.
 
-Detta är min me-sida i kursen. Denna sidan innehåller en presentation av mig själv. Underhåll denna sidan under hela kursen och uppdatera den efter hand och behov.
+En annan sak är att jag avskyr att fota mig och ser mig själv i bild, vilket  leder till att jag inte har bilder på mig själv så jag hoppas att det inte ställer till så mycket.
 
-Så, en presentation en bra början. Skriv några ord om dig själv. Jag börjar.
+Eftersom jag gillar Sumarajer och manga så får ni en bild av en samuraj istället!
 
-Mitt namn är Mikael Roos. Född och uppvuxen i Bankeryd, Småland, strax utanför Jönköping, i ett villaområde som byggdes upp samtidigt som vi flyttade in där. Jag gillade landhockey och har spelat bandy och hockey samt gått bowlinggymnasiet i Nässjö. Jag har varit städare, diskare, kallskänka, servitör och kock. På ett bananskal landade jag i Ronneby när jag började högskolan 1990 där och nu är jag kvar med fru, barn och så vidare.
+</div>
 
-Programmering har alltid intresserat mig sedan 13-årsåldern och min första dator var en Spectravideo 328 med bandspelare.
+<div class="byline_container">
+  <div class="byline_avatar">
+    <img style="max-width:80px;" src="img/ninja_avatar.png" alt="avatar">
+    <p>Hien Le</p>
+  </div>
+  <p><a href="">Hien Le</a> bor i Karlskoga, jobba 150% i Örebro samt plugga heltid på distans på BTH. Hatar att ta kort på sig själv så det inga bilder.</p>
+</div>
 
-Om jag skall nämna någon hobby, förutom webbprogrammering, så får det bli att bära sten på sommarstugetomten, och det finns sten så det räcker och blir över.
-
-Till och från får jag för mig att börja på lite hobbies, ett år satsade jag på pokerspel, ett annat år var det geocaching och sedan turfing. Nu ligger jag lågt med hobbies, men något kanske dyker upp...?
-
-Vi syns och hörs i forum och chatt!
-
-/Mikael

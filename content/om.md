@@ -19,10 +19,4 @@ views:
 Om
 =========================
 
-Detta innehåll är skrivet i markdown och du hittar innehållet i filen `content/om.md`.
-
-Skriv några kloka ord om kursen?
-
-Lägg till en representativ bild för kursen, enligt ditt egna val.
-
-[FIGURE src=image/car.png?w=300 caption="En fin bil som demobild."]
+[FIGURE src=image/markdown.png?w=300 caption="Här är en bild av markdown som jag kommer att försöka lära mig under kursens gång och beskriver kursen ganska bra då vi ska lära oss om markdown."]
