@@ -1,5 +1,14 @@
 ---
 title: "Om Mig Själv"
+views:
+    byline:
+        region: main
+        template: anax/v2/block/default
+        sort: 2
+        data:
+            meta: 
+                type: single
+                route: block/byline
 ---
 Om Mig Själv | Design Kursen
 =========================
@@ -9,17 +18,8 @@ Om Mig Själv | Design Kursen
 <div class="main-content-text">
 Hej, mitt namn är Van Hien Le, där Hien är förnamnet, Van är mellannamnet och Le   efternamnet. Just nu bor jag i Karlskoga och jobbar 150% i Örebro samtidigt som jag studerar 100% på distans på BTH.
 
-En annan sak är att jag avskyr att fota mig och ser mig själv i bild, vilket  leder till att jag inte har bilder på mig själv så jag hoppas att det inte ställer till så mycket.
+<br><br>En annan sak är att jag avskyr att fota mig och ser mig själv i bild, vilket  leder till att jag inte har bilder på mig själv så jag hoppas att det inte ställer till så mycket.
 
-Eftersom jag gillar Sumarajer och manga så får ni en bild av en samuraj istället!
-
-</div>
-
-<div class="byline_container">
-  <div class="byline_avatar">
-    <img style="max-width:80px;" src="img/ninja_avatar.png" alt="avatar">
-    <p>Hien Le</p>
-  </div>
-  <p><a href="">Hien Le</a> bor i Karlskoga, jobba 150% i Örebro samt plugga heltid på distans på BTH. Hatar att ta kort på sig själv så det inga bilder.</p>
+<br><br>Eftersom jag gillar Sumarajer och manga så får ni en bild av en samuraj istället!
 </div>
 
