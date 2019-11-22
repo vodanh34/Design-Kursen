@@ -1,0 +1,87 @@
+/**
+ * Layout for responsive style through media queries.
+ */
+
+@media screen and (max-width: 1500px) {
+    .site-logo {
+        display: none;
+    }
+}
+
+// Make change to main menu and remove it once reach 580
+@media screen and (max-width: 960px) {
+    .rm-desktop li a {
+        padding-left: 0.4em;
+        padding-right: 0.4em;
+    }
+}
+
+//Resize main menu
+@media screen and (max-width: 800px) {
+    .region-header-col-1,
+    .region-header-col-3, {
+        width: 15%;
+    }
+    
+    .region-header-col-2, {
+        width: 70%;
+    }
+}
+
+//Reset styling conditions of the report page
+@media screen and (max-width: 760px) {
+    //Reset styling conditions of the about and tools page
+    body[class^="route-verktyg"] .region-main,
+    body[class^="route-redovisning"] .region-main {
+        width: 68%;
+    }
+}
+
+//Remove main menu
+@media screen and (max-width: 580px) {
+    .rm-desktop {
+        display: none;
+    }
+    
+    .region-header-col-1,
+    .region-header-col-3, {
+        width: 50%;
+    }
+
+    .region-header-col-2, {
+        display: none;
+    }
+
+    //Reset styling conditions of the about, report and tools page
+    .route-om .region-main,
+    body[class^="route-redovisning"] .region-main,
+    body[class^="route-verktyg"] .region-main {
+        width: auto;
+        float: none;
+        padding: 10px 10px;
+    }
+
+    .region-sidebar-left,
+    .region-sidebar-right {
+        width: auto;
+        float: none;
+        padding: 0 10px;
+    }
+    
+    //Remove flex and display as block on test page
+    body[class^="route-test"] .inner-wrap-main .row {
+        display: block;
+    }
+    
+    //Remove flex and display footer as block
+    .footer-column-wrapper {
+        display: block;
+    }
+}
+
+//Restyle about me figure (index page) contents
+@media screen and (max-width: 450px) {
+  .right {
+      float: none;
+  }
+}

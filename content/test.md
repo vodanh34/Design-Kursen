@@ -1,3 +1,20 @@
+---
+views:
+    playgroundcol1:
+        region: sidebar-right
+        template: anax/v2/block/default
+        data:
+            meta: 
+                type: single
+                route: play/playground-col1
+    playgroundcol2:
+        region: sidebar-left
+        template: anax/v2/block/default
+        data:
+            meta: 
+                type: single
+                route: play/playground-col2
+---
 
 Här leker vi runt i markdown
 ====================================

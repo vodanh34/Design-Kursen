@@ -1,0 +1,140 @@
+/**
+ * Layout style for general structure of contents
+ */
+ 
+/* Universal */
+.wrap-all {
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.outer-wrap {
+    width: 100%;
+    background-color: #e6e6e6;
+    overflow: auto;
+}
+
+.inner-wrap {
+    max-width: 1100px;
+    margin: auto;
+}
+
+/* Wrap of the main section */
+.inner-wrap-main {
+    background-color: #f2f2f2;
+    overflow: auto;
+}
+
+.region-main {
+    padding: 0 10px;
+    padding-bottom: 10px;
+    margin: 10px;
+}
+
+/* Content div of about and report page */
+//.route-redovisning-kmom .region-main,
+.route-om .region-main {
+    width: 70%;
+    float: left;
+    padding: 0;
+    margin: 0;
+    padding-left: 15px;
+}
+
+.region-sidebar-left,
+.region-sidebar-right {
+    width: 25%;
+    float: left;
+}
+
+//Report and Tools page
+body[class^="route-redovisning"] .region-main,
+body[class^="route-verktyg"] .region-main {
+    width: 75%;
+    float: right;
+    margin: 0;
+    padding: 10px 10px 10px 0;
+}
+
+.region-sidebar-left {
+    width: 20%;
+    padding-left: 5px;
+    padding-right: 10px;
+}
+
+//Styling the next and previous of the report and tools page
+.next-previous {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
+/* My introduction Section */
+.right {
+    float: right;
+}
+
+.figure.right {
+    padding-bottom: 20px;
+}
+
+.figure.right,
+.figure.right img{
+    max-width: 200px;
+}
+
+.main-content-text {
+    padding-bottom: 15px;
+}
+
+/* Byline Section */
+.byline_container {
+    display: flex;
+    max-width: 350px;
+    border: 1px solid #999;
+    border-radius: 5px;
+    clear: both;
+}
+
+.byline_avatar {
+    display: inline-block;
+    text-align: center;
+    float: left;
+}
+
+.byline_avatar img {
+    width: 80px;
+}
+/* Test Section */
+body[class^="route-test"] .inner-wrap-main .row {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0 10px;
+}
+
+body[class^="route-test"] .region-main {
+    float: none;
+    width: auto;
+    padding: 0;
+    margin: 0px;
+}
+
+body[class^="route-test"] .region-sidebar-left,
+body[class^="route-test"] .region-sidebar-right {
+    float: none;
+    width: auto;
+}
+
+
+//Byline test
+.byline {
+    border: 1px solid black;
+}
+
+.byline figcaption {
+    display: inline;
+}
+
+.test-crap {
+    padding-bottom: 10px;
+}

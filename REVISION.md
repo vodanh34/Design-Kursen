@@ -1,14 +1,20 @@
 Revision History
 ===================
 
-v1.0.1 (2019-11-09)
+v2.0.0 (2019-11-22)
 ----------------------
-Adding License, Readme and Revision
+Creating more CSS files for kmom02 as well as breaking out the 
+previous code from kmom01 into various new CSS files as well as
+final version of kmom02
+
+v1.1.0 (2019-11-10)
+-----------------------
+Modifying files for the final version of Kmom01.
 
 v1.0.2 (2019-11-09)
 -----------------------
 Adding and modifying a bunch of new files for kmom01.
 
-v1.1.0 (2019-11-10)
------------------------
-Modifying files for the final version of Kmom01.
+v1.0.1 (2019-11-09)
+----------------------
+Adding License, Readme and Revision
