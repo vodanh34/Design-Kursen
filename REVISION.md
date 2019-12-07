@@ -1,6 +1,13 @@
 Revision History
 ===================
 
+v3.0.0 (2019-12-06)
+---------------------
+Create more CSS files for kmom03 as well as reworking the previous
+code from kmom02 and convert it to kmom03 and finalise everything for kmom03.
+
+Note: Might break some part of the previous kmoms.
+
 v2.0.0 (2019-11-22)
 ----------------------
 Creating more CSS files for kmom02 as well as breaking out the 

@@ -19,4 +19,4 @@ views:
 Om
 =========================
 
-[FIGURE src=image/markdown.png?w=300 caption="Här är en bild av markdown som jag kommer att försöka lära mig under kursens gång och beskriver kursen ganska bra då vi ska lära oss om markdown."]
+[FIGURE src="image/markdown.png?w=300&h=170" caption="Här är en bild av markdown som jag kommer att försöka lära mig under kursens gång och beskriver kursen ganska bra då vi ska lära oss om markdown."]
