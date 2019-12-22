@@ -1,9 +1,13 @@
 Revision History
 ===================
 
+v4.0.1 (2019-12-22)
+---------------------
+Fix images links in in the rapport page.
+
 v4.0.0 (2019-12-22)
 -----------------------
-Create more CSS files for kmom04 and add more img as well as finak version of kmom04.
+Create more CSS files for kmom04 and add more img as well as final version of kmom04.
 
 v3.0.0 (2019-12-06)
 ---------------------

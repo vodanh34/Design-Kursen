@@ -28,7 +28,7 @@ Result
 ----------
 **Good Old Games (GOG)**
 
-[FIGURE src="image/gog.png"]
+[FIGURE src="image/GOG.png"]
 
 <table style="border-spacing: 4px; border-collapse: separate">
 <tr>
@@ -49,7 +49,7 @@ Note that the website changes its colour theme based on season and holiday to in
 
 **Epic Game Store**
 
-[FIGURE src="image/epic.png"]
+[FIGURE src="image/Epic.png"]
 
 <table style="border-spacing: 4px; border-collapse: separate">
 <tr>
@@ -69,7 +69,7 @@ Just like GOG, this website also uses green as its main colour, though a much da
 
 **Steam**
 
-[FIGURE src="image/steam.png"]
+[FIGURE src="image/Steam.png"]
 
 <table style="border-spacing: 4px; border-collapse: separate">
 <tr>
