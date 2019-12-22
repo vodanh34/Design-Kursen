@@ -1,0 +1,135 @@
+/**
+ * Layout style for general structure of contents
+ */
+ 
+/* Universal */
+.row {
+    #desinax-vgrid.row();
+    margin-bottom: 12px;
+}
+
+body {
+    color: #505AFC;
+}
+
+.outer-wrap {
+    background-color: #000;
+    overflow: auto;
+}
+
+a {
+    color: #EA211D;
+}
+
+.inner-wrap {
+    #desinax-vgrid.grid(1100px);
+    overflow-x: hidden;
+}
+
+.region-breadcrumb {
+    #desinax-vgrid.column(@columns);
+    background-color: #1a1a1a;
+}
+
+/* Control of the main content wrap */
+.inner-wrap-main {
+    background-color: #1a1a1a;
+    margin-bottom: 12px;
+}
+
+.region-main {
+    #desinax-vgrid.column(@columns);
+    
+    &.article {
+        #desinax-vgrid.column(@columns);
+    }
+
+    &.has-sidebar {
+        #desinax-vgrid.column(@columns * (3 / 4));
+    }
+
+    //Control the page that has the sidebar on the left
+    &.has-sidebar-left {
+        #desinax-vgrid.column(@columns * (3 / 4) - 2);
+        #desinax-vgrid.push(1);
+    }
+
+    //Control the page that has the sidebar on the right
+    &.has-sidebar-right {
+        #desinax-vgrid.column(@columns * (3 / 4) - 1);
+    }
+
+    &.has-sidebar-left.has-sidebar-right {
+        #desinax-vgrid.column(@columns  / 2);
+        #desinax-vgrid.push(1);
+    }
+}
+
+.region-sidebar-right,
+.region-sidebar-left {
+    #desinax-vgrid.column(@columns * (1 / 4));
+}
+
+//Control 3 columns page
+.wrap-sidebar {
+
+    //Control the right sidebar of the 2 columns page
+    &.region-sidebar-right.has-sidebar-right {
+        #desinax-vgrid.push(1);
+    }
+
+    //Control the right sidebar of the 3 columns page
+    &.region-sidebar-right.has-sidebar-left.has-sidebar-right {
+        #desinax-vgrid.push(1);
+    }
+
+    //Control booth sidebar
+    &.has-sidebar-left.has-sidebar-right {
+        #desinax-vgrid.column(@columns * (1 / 4) - 1);
+    }
+}
+
+//Styling the next and previous of the report and tools page
+.next-previous {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
+/* My introduction Section */
+.right {
+    #desinax-vgrid.column(@columns * 1 / 3 - 1);
+    #desinax-vgrid.push(1);
+}
+
+.main-content-text {
+    #desinax-vgrid.column(@columns * 2 / 3);
+}
+
+/* Byline Section */
+.byline_container {
+    #desinax-vgrid.column(@columns);
+    border: 1px solid #999;
+}
+
+.byline_avatar {
+    #desinax-vgrid.column(2);
+}
+
+.byline_container p {
+    #desinax-vgrid.column(22);
+}
+
+.byline_avatar img {
+    background-color: #000;
+    #desinax-vgrid.column(24);
+}
+
+//Byline test
+.byline {
+    border: 1px solid black;
+}
+
+.byline figcaption {
+    display: inline;
+}
