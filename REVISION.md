@@ -1,6 +1,10 @@
 Revision History
 ===================
 
+v5.0.1 (2019-12-29)
+------------------------
+Add new images for the research as well as a research page for kmom05.
+
 v4.0.1 (2019-12-22)
 ---------------------
 Fix images links in in the rapport page.
