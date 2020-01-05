@@ -1,0 +1,148 @@
+/**
+ * Layout for responsive style through media queries.
+ */
+@totalColumns: (@columns - 2);
+
+@media screen and (max-width: 1500px) {
+    .site-logo {
+        display: none;
+    }
+}
+
+// Decrease the padding on the menu
+@media screen and (max-width: 1210px) {
+    .rm-desktop li a {
+        padding-left: 0.4em;
+        padding-right: 0.4em;
+    }
+}
+
+// Decrease the padding on the menu
+@media screen and (max-width: 945px) {
+    .rm-desktop li a {
+        padding-left: 0.2em;
+        padding-right: 0.2em;
+    }
+}
+
+//Remove main menu
+@media screen and (max-width: 855px) {
+    .rm-desktop {
+        display: none;
+    }
+
+    .region-header-col-1,
+    .region-header-col-3, {
+        #desinax-vgrid.column(@totalColumns);
+    }
+
+    .region-header-col-2, {
+        display: none;
+    }
+}
+
+
+//Resize main menu
+@media screen and (max-width: 700px) {
+    .region-header-col-1,
+    .region-header-col-3, {
+        #desinax-vgrid.column(4);
+    }
+    
+    .region-header-col-2, {
+        #desinax-vgrid.column(16);
+    }
+}
+
+//Remove main menu
+@media screen and (max-width: 590px) {
+    .rm-desktop {
+        display: none;
+    }
+
+    .region-header-col-1,
+    .region-header-col-3, {
+        #desinax-vgrid.column(@totalColumns);
+    }
+
+    .region-header-col-2, {
+        display: none;
+    }
+
+    .region-main {
+        #desinax-vgrid.column(@totalColumns);
+        #desinax-vgrid.push(1);
+        
+        &.has-sidebar {
+            #desinax-vgrid.column(@totalColumns);
+            #desinax-vgrid.push(1);
+        }
+
+        //Control the page that has the sidebar on the left
+        &.has-sidebar-left {
+            #desinax-vgrid.column(@totalColumns);
+            #desinax-vgrid.push(1);
+            #desinax-vgrid.push(1);
+        }
+
+        //Control the page that has the sidebar on the right
+        &.has-sidebar-right {
+            #desinax-vgrid.column(@totalColumns);
+            #desinax-vgrid.push(1);
+        }
+
+        &.has-sidebar-left.has-sidebar-right {
+            #desinax-vgrid.column(@totalColumns);
+            #desinax-vgrid.push(1);
+        }
+    }
+
+    .region-sidebar-right,
+    .region-sidebar-left {
+        #desinax-vgrid.column(@columns);
+    }
+
+    //Control 3 columns page
+    .wrap-sidebar {
+
+        //Control the right sidebar of the 2 columns page
+        &.region-sidebar-right.has-sidebar-right {
+          #desinax-vgrid.column(@columns);
+            #desinax-vgrid.push(1);
+        }
+
+        //Control the right sidebar of the 3 columns page
+        &.region-sidebar-right.has-sidebar-left.has-sidebar-right {
+            #desinax-vgrid.column(@columns);
+            #desinax-vgrid.push(1);
+        }
+
+        //Control booth sidebar
+        &.has-sidebar-left.has-sidebar-right {
+            #desinax-vgrid.column(@columns);
+            #desinax-vgrid.column(@columns);
+        }
+    }
+
+    //Make the 3 footer display blocklike
+    .footer-column {
+        #desinax-vgrid.column(@totalColumns);
+        #desinax-vgrid.push(1);
+    }
+}
+
+//Restyle about me figure (index page) contents
+@media screen and (max-width: 450px) {
+    .right {
+        #desinax-vgrid.column(@columns);
+    }
+
+    .main-content-text {
+        #desinax-vgrid.column(@columns);
+    }
+    
+    .byline_container p {
+        #desinax-vgrid.column(21);
+        #desinax-vgrid.push(1);
+    }
+}

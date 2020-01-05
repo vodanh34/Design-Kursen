@@ -1,0 +1,61 @@
+/**
+ * Base style to affect HTML elements on a general scale.
+ */
+@bgColorHtml: #424242;
+@bgColorBody: #fff;
+@colorBody: #333;
+@fontFamilyBody: serif;
+
+html {
+    overflow-y: scroll;
+    background-color: @bgColorHtml;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    color: @colorBody;
+    background-color: @bgColorBody;
+    #desinax-hgrid.font(@fontSizeBody);
+    //font: 100.01%/1 @fontFamilyBody;
+}
+
+img {
+    max-width: 100%;
+}
+
+//Show the vertical grid if activated with ?vgrid
+.vgrid .inner-wrap {
+    @gridImage: "../img/theme/vgrid/grid_24x30x10-nomargin.png";
+    #desinax-vgrid.showGrid(@gridImage, 1100px);
+
+    &.inner-wrap-header,
+    &.inner-wrap-footer {
+        #desinax-vgrid.showGrid(@gridImage);
+    }
+}
+
+// Show the hgrid
+.hgrid .inner-wrap {
+    #desinax-hgrid.showGridAlt();
+}
+
+// Activate grid and affect all typographic elements
+#desinax-hgrid.activateDefaultTypography();
+
+// Enable style from the module and optinally add customized layout
+figure.figure {
+    @maxContentWidth: 1100px;
+    #desinax-figure.figure(@maxContentWidth);
+}
+
+figure.asciinema {
+    &:extend(figure.figure);
+    #desinax-figure.asciinema();
+}
+
+figure.codepen,
+figure.figure-codepen {
+    &:extend(figure.figure);
+    #desinax-figure.codepen();
+}

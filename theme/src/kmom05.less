@@ -1,0 +1,69 @@
+/*!
+ * Stylesheet for design kmom05.
+ *
+ * This stylesheet is for the design course and kmom05 where we use LESS.
+ */
+
+ /**
+  * Normalize and reset the style.
+  */
+ @import "normalize.css/normalize.less";
+
+ /**
+  * Font Awesome.
+  */
+ @import "@fortawesome/fontawesome-free/less/fontawesome.less";
+ @import "@fortawesome/fontawesome-free/less/solid.less";
+ @import "@fortawesome/fontawesome-free/less/brands.less";
+
+/**
+* Figure and figcaption for images and other media using figure/figcaption
+*/
+@import "@desinax/figure/less/asciinema.less";
+@import "@desinax/figure/less/codepen.less";
+@import "@desinax/figure/less/figure.less";
+
+/**
+ * Base style to affect HTML elements on a general scale.
+ */
+@import "base/kmom05/base.less";
+
+/**
+ * Import the vertical grid.
+ */
+@import "@desinax/vertical-grid/less/grid.less";
+
+/**
+ * Import the typographic grid.
+ */
+@import "@desinax/typographic-grid/less/typography-font-families.less";
+@import "@desinax/typographic-grid/less/typography-defaults.less";
+
+// Magic number and base fontsize
+@magicNumber:  22px;
+@fontSizeBody: 16px;
+
+// Default font-families
+@fontFamilyHeadings: "sans-serif";
+@fontFamilyCode:     "Garamond";
+
+/**
+ * Layout style for general structure of header, navbar, main, footer
+ * and other regions of the page including route specific styles.
+ */
+@import "layout/kmom05/layout_header.less";
+@import "layout/kmom05/layout_contents.less";
+@import "layout/kmom05/layout_footer.less";
+@import "layout/kmom05/responsive.less";
+@import "layout/regions.less";     // To add style for ?regions
+
+/**
+ * My own settings, not currently in their own module.
+ */
+ 
+ /**
+ * A responsive menu.
+ */
+@import "@desinax/responsive-menu/less/responsive-menu.less";
+//@import "@desinax/responsive-menu/less/media-queries.less";
+ 

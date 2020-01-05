@@ -1,5 +1,8 @@
 Revision History
 ===================
+v5.0.2 (2020-01-05)
+-----------------------
+Add blogg and images as well as adding few more files and final version of Kmom05.
 
 v5.0.1 (2019-12-29)
 ------------------------

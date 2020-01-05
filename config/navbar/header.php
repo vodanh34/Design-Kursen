@@ -20,6 +20,11 @@ return [
             "title" => "Rapport för kommande kmom.",
         ],
         [
+            "text" => "Blogg",
+            "url" => "blogg",
+            "title" => "Blog för CImage",
+        ],
+        [
             "text" => "Redovisning",
             "url" => "redovisning",
             "title" => "Redovisningstexter från kursmomenten.",

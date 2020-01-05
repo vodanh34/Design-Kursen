@@ -1,0 +1,44 @@
+/**
+ * Layout style for general structure of header and navbar
+ */
+ 
+//Condition to keep the leaf logo on the left
+.inner-wrap-header {
+    #desinax-vgrid.grid(100%) !important;
+    overflow-x: hidden;
+}
+
+.region-header-col-1,
+.region-header-col-3 {
+    #desinax-vgrid.column(5);
+}
+
+.region-header-col-2 {
+    #desinax-vgrid.column(14);
+    text-align: center;
+}
+
+//Styling main nagivation menu
+.region-header {
+    background-color: #fff;
+    overflow: auto;
+    overflow-y: hidden;
+} 
+
+.my-navbar li:hover {
+    background-color: #ccc;
+}
+
+//Styling the flash image
+.region-flash {
+    #desinax-vgrid.column(@columns);
+}
+
+/* Hide the big ass header img */
+.site-logo {
+    display: none;
+}
+
+.my-navbar {
+    list-style-type: none;
+}
