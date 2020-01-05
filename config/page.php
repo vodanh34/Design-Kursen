@@ -24,7 +24,7 @@ return [
                 //"css/kmom02.css",
                 //"css/kmom03.min.css"
                 //"css/04_minimalistic.min.css"
-                "css/kmom04.min.css"
+                "css/kmom05.min.css"
             ],
             "javascripts" => [
                 "js/responsive-menu.js",
