@@ -51,7 +51,8 @@ Just like GOG, Epic Games Store also uses excessive DOM and enormous network pay
 
 Steam also uses enormous network payload, a lot of DOM, older image format and image size of greater than its container. By optimizing and using next gen image format together with reduced DOM and network payload will reduces load time greatly.
 
-**Analyse**
+Analyse
+-----------------
 Based on the research the common issues are that all the website use enormous network payload, has a lot of DOM, using older image format as well as having images of great size or images that’s bigger than its element container. And one of the three sites use big JavaScript payload.
 
 All these issues combined increased the loading time greatly. Therefore, in order to decrease the load time those websites should use next gen images format as well as using right image size according to its element. Decrease the use of DOM, reduce network payload as well as JavaScript payload.
@@ -60,8 +61,8 @@ Also, it’s very common for those sites to load slowly on mobile devices, but t
 
 Another thing to note is that the loading speed probably is related to the user’s internet connection as well. Since my internet connection is not great while perform the research, the result might be affected by it somehow and should be taken with a grain of salt.
 
-**Personal Verdict and Preferences**
-
+Personal Verdict and Preferences
+--------------------------------------
 Based on the result from the research the final score is given by the following; Ranging from fastest to slowest. The score is based on the main page where users spent most of their time on browsing through different games on desktop version.
 
 1. **Steam**
@@ -82,4 +83,3 @@ Mics
 ----------
 This research is done by Hien Van Le.<br>
 [Analyse Excel Arc](https://www.dropbox.com/s/m0sozmw07fzemjy/Design%20Kmom05.xlsx?dl=0)
-

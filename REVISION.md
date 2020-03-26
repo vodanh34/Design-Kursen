@@ -1,12 +1,20 @@
 Revision History
 ===================
+v6.0.0 (2020-03-25)
+--------------------------
+Fixing header of kmom05 report last 2 section.
+
+Create 3 reports for kmom06 (06, 07 and 08).
+
+Create some CSS files for kmom06 to changes some of the looks.
+
 v5.0.4 (2020-01-05)
 ----------------------
-Fixin minor errors in theme selection.
+Fixing minor errors in theme selection.
 
 v5.0.2 (2020-01-05)
 -----------------------
-Add blogg and images as well as adding few more files and final version of Kmom05.
+Add blog and images as well as adding few more files and final version of Kmom05.
 
 v5.0.1 (2019-12-29)
 ------------------------
