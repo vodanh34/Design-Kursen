@@ -1,5 +1,9 @@
 Revision History
 ===================
+v6.0.1 (2020-03-26)
+
+Add report to kmom06
+
 v6.0.0 (2020-03-25)
 --------------------------
 Fixing header of kmom05 report last 2 section.
