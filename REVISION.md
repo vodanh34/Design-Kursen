@@ -1,6 +1,15 @@
 Revision History
 ===================
+v7.0.1 (2020-05-08)
+---------------------
+Add rapport 10 too the project, continuing with the project.
+
+v7.0.0 (2020-05-03)
+---------------------
+Add rapport 09 too the project, the beginning of the project.
+
 v6.0.1 (2020-03-26)
+-----------------------
 
 Add report to kmom06
 
